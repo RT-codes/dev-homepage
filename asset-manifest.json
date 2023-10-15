@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/dev-homepage/static/css/main.59e49270.css",
-    "main.js": "/dev-homepage/static/js/main.2a51f3a3.js",
+    "main.css": "/dev-homepage/static/css/main.34c21946.css",
+    "main.js": "/dev-homepage/static/js/main.c4c238ba.js",
     "static/js/787.eef0f175.chunk.js": "/dev-homepage/static/js/787.eef0f175.chunk.js",
+    "static/media/Montserrat-VariableFont_wght.ttf": "/dev-homepage/static/media/Montserrat-VariableFont_wght.7e687123cd4528224ce5.ttf",
     "static/media/Vector_Chevron.svg": "/dev-homepage/static/media/Vector_Chevron.98850791fb52da249d51776f3bef5f0d.svg",
     "static/media/logo.svg": "/dev-homepage/static/media/logo.15b3053985393fbf693d9323ebff5eb0.svg",
     "index.html": "/dev-homepage/index.html",
-    "main.59e49270.css.map": "/dev-homepage/static/css/main.59e49270.css.map",
-    "main.2a51f3a3.js.map": "/dev-homepage/static/js/main.2a51f3a3.js.map",
+    "main.34c21946.css.map": "/dev-homepage/static/css/main.34c21946.css.map",
+    "main.c4c238ba.js.map": "/dev-homepage/static/js/main.c4c238ba.js.map",
     "787.eef0f175.chunk.js.map": "/dev-homepage/static/js/787.eef0f175.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.59e49270.css",
-    "static/js/main.2a51f3a3.js"
+    "static/css/main.34c21946.css",
+    "static/js/main.c4c238ba.js"
   ]
 }

@@ -43,7 +43,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 2rem;
   background-color: #687da3;
   min-height: calc(100vh - 60px);
 

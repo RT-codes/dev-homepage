@@ -1,7 +1,10 @@
 import React from "react";
 import "./css/hero.css";
+import Vector_Chevron from "../Vector_Chevron.svg";
 
 const Herosection = () => {
+  // set the fill for the vector chevron to white
+  document.documentElement.style.setProperty("--vector-chevron-fill", "#fff");
   return (
     <>
       <div className="hero-wrapper">
@@ -11,9 +14,10 @@ const Herosection = () => {
           <h2>A Fullstack Developer.</h2>
           <p>Located in the Netherlands. I love building interactive applications for the web.</p>
         </div>
-        <div id="down-button" onClick={scrollPageDown}>
-          down button
-          <i className="fas fa-chevron-down"></i>
+        <div class="down-button-wrapper">
+          <div id="down-button" onClick={scrollPageDown}>
+            <img src={Vector_Chevron} alt="down arrow" type="image/svg+xml" />
+          </div>
         </div>
       </div>
     </>

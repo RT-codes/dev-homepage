@@ -10,7 +10,9 @@ const Herosection = () => {
       <div className="hero-wrapper">
         <div className="hero-column">
           <h2>Hello,</h2>
-          <h2>I am Rowan,</h2>
+          <h2>
+            I am <span class="text-highlight">Rowan</span>
+          </h2>
           <h2>A Fullstack Developer.</h2>
           <p>Located in the Netherlands. I love building interactive applications for the web.</p>
         </div>

@@ -46,8 +46,10 @@ nav>ul {
 /* create animation that slides in a line under element of 4 px from left and when left reverse */
 nav a::after {
     content: '';
+    position: relative;
     display: block;
     width: 100%;
+    bottom: -5px;
     height: 4px;
     border-radius: 5px;
     transform: scaleX(0);

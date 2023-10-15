@@ -3,8 +3,8 @@
     /* gradient from dark blue in bottom left to light blue in top right */
 
     background: linear-gradient(45deg,
-            rgba(65, 90, 135, 0.8) 0%,
-            rgba(104, 125, 163, 0.8) 100%) no-repeat center center/cover;
+            rgba(42, 43, 44, 0.8) 0%,
+            rgba(70, 73, 79, 0.8) 100%) no-repeat center center/cover;
     height: 50vh;
     display: flex;
     flex-direction: row;
@@ -28,10 +28,14 @@
 
 .hero-column h2 {
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: bolder !important;
     color: var(--primary-text-color);
     text-align: center;
     line-height: 3rem;
+}
+
+.text-highlight {
+    color: var(--tertiary-color);
 }
 
 .down-button-wrapper {
@@ -73,20 +77,23 @@
     /* #415a87 in rgb */
 
 
-    filter: invert(1) drop-shadow(5px 0 15px rgb(21, 33, 56));
+    filter: invert(.7) drop-shadow(5px 0 15px rgb(37, 37, 37));
 
     /* filter: drop-shadow(0 0 5px rgb(213, 209, 106)) invert(1); */
-    transition: all 0.4s ease-in-out;
+    /* transition: all 0.4s cubic-bezier(0, 0.2, 0.6, 1); */
     animation: up-down 2.5s ease-in-out infinite;
-    opacity: 0.5;
-    transform: scale(0.2);
+    /* opacity: 0.5; */
+
 }
 
 
 #down-button img:hover {
     /* filter: drop-shadow(0 0 5px rgb(238, 245, 49)) invert(1); */
     /* filter: invert(1) drop-shadow(0 0 15px rgb(21, 33, 56)); */
-    opacity: 1;
+    /* opacity: 1; */
+    /* width: 5rem;
+    height: 5rem; */
+    animation: up-down .5s ease-in-out infinite;
 }
 
 /* animation of element going up and down slowly infinitely */

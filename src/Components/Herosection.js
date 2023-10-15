@@ -27,7 +27,7 @@ const Herosection = () => {
 
   function scrollPageDown() {
     window.scrollTo({
-      top: window.innerHeight - 50,
+      top: window.innerHeight - 380,
       left: 0,
       behavior: "smooth",
     });

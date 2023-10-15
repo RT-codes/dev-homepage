@@ -36,6 +36,11 @@ code {
     monospace;
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
 header {
   position: relative;
   display: flex;
@@ -45,6 +50,7 @@ header {
   padding: 0 20px;
   height: 60px;
   z-index: 10;
+  background-color: var(--primary-color);
 }
 
 .body {
@@ -53,7 +59,6 @@ header {
   justify-content: flex-start;
   background-color: #687da3;
   min-height: calc(100vh - 60px);
-
 }
 
 .footer {
@@ -62,6 +67,12 @@ header {
   align-items: center;
   padding: 20px;
   background-color: var(--primary-color);
+}
+
+.footer img.icon-img {
+  width: 40px;
+  height: 40px;
+  filter: invert(.7);
 }
 
 .footer-column {

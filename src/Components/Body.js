@@ -1,5 +1,6 @@
 import React from "react";
 import Herosection from "./Herosection";
+import Skillsection from "./Skillsection";
 import Projectsection from "./Projectsection";
 import "./css/body.css";
 
@@ -8,6 +9,7 @@ const Body = () => {
     <div className="body">
       {/* return the herosection */}
       <Herosection />
+      <Skillsection />
 
       <Projectsection />
     </div>

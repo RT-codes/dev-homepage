@@ -4,10 +4,10 @@ import "./css/header.css";
 
 const Header = () => {
   return (
-    <header>
+    <header className="sticky">
       <div className="logo">
-        <img src={logo} alt="React Logo" />
-        <h1>My Portfolio</h1>
+        {/* <img src={logo} alt="React Logo" /> */}
+        <h1>RT Productions</h1>
       </div>
 
       <nav>
